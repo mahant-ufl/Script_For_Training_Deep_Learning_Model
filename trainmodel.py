@@ -6,7 +6,7 @@ app = Flask(__name__ )
 
 @app.route('/')
 def home_page():
-   return 'Train a deep learning model'
+   return 'Train a linear regression model'
 
 # Input
 W = tf.Variable([.26], dtype=tf.float32)
